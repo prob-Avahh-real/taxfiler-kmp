@@ -7,13 +7,13 @@ object TaxConstants {
 
     /// 七级超额累进税率表（年度综合所得）
     val taxBrackets = listOf(
-        TaxBracket(0, 36000, 0.03, 0),
-        TaxBracket(36000, 144000, 0.10, 2520),
-        TaxBracket(144000, 300000, 0.20, 16920),
-        TaxBracket(300000, 420000, 0.25, 31920),
-        TaxBracket(420000, 660000, 0.30, 52920),
-        TaxBracket(660000, 960000, 0.35, 85920),
-        TaxBracket(960000, Double.MAX_VALUE, 0.45, 181920)
+        TaxBracket(0.0, 36000.0, 0.03, 0.0),
+        TaxBracket(36000.0, 144000.0, 0.10, 2520.0),
+        TaxBracket(144000.0, 300000.0, 0.20, 16920.0),
+        TaxBracket(300000.0, 420000.0, 0.25, 31920.0),
+        TaxBracket(420000.0, 660000.0, 0.30, 52920.0),
+        TaxBracket(660000.0, 960000.0, 0.35, 85920.0),
+        TaxBracket(960000.0, Double.MAX_VALUE, 0.45, 181920.0)
     )
 
     /// 专项附加扣除额度（每人/月）
